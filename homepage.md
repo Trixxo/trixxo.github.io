@@ -1,5 +1,1 @@
-<div align="center">
-
-[e-learning](https://e-learning.tuhh.de/studip/)
-
-</div>
+[e-learning](https://e-learning.tuhh.de/studip/dispatch.php/start)
