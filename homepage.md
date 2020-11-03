@@ -12,3 +12,5 @@
 [functional-programming-lab](https://tuhh.zoom.us/j/85886154797?pwd=RktjSWovRTRBWnd0OUxId0lFZitmUT09#success)
 
 [functional-programming-exercise](https://tuhh.zoom.us/j/86808746827?pwd=SzRXb1dlUmcwenRZaElObUlXNS9lQT09#success)
+
+[diskrete algebraische strukturen](https://tuhh.zoom.us/j/87833655708?pwd=dUJ5aGxnRTRJdHZqcEY2VytSekcxdz09)
