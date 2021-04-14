@@ -5,7 +5,7 @@
 
 [e-learning](https://e-learning.tuhh.de/studip/dispatch.php/start)
 
-[linear-algebra-meeting](https://tuhh.zoom.us/j/87291343957?pwd=WjIxVmpTSWMxVXRxSVRKMFlxaXJLQT09)
+[mathematical-analysis-lecture](https://tuhh.zoom.us/j/87291343957?pwd=WjIxVmpTSWMxVXRxSVRKMFlxaXJLQT09)
 
 [linear algebra exercise](https://tuhh.zoom.us/j/84827648670?pwd=TDUzWE45bVlVUTNCZnJPMnZFZ0Y1UT09#success)
 
