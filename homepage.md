@@ -7,17 +7,15 @@
 
 [mathematical-analysis-lecture](https://tuhh.zoom.us/j/87291343957?pwd=WjIxVmpTSWMxVXRxSVRKMFlxaXJLQT09)
 
-[linear algebra exercise](https://tuhh.zoom.us/j/84827648670?pwd=TDUzWE45bVlVUTNCZnJPMnZFZ0Y1UT09#success)
+[mathematical-analysis-tutorial](https://tuhh.zoom.us/j/84827648670?pwd=TDUzWE45bVlVUTNCZnJPMnZFZ0Y1UT09)
 
 <br>
 
-[functional-programming-lecture](https://tuhh.zoom.us/j/88910119571?pwd=Z2YrMksxLzg1NENkRkt4Rmw4QVFXQT09#success)
-
-[functional-programming-lab](https://tuhh.zoom.us/j/85886154797?pwd=RktjSWovRTRBWnd0OUxId0lFZitmUT09#success)
-
-[functional-programming-exercise](https://tuhh.zoom.us/j/86808746827?pwd=SzRXb1dlUmcwenRZaElObUlXNS9lQT09#success)
+[oop videos](https://e-learning.tuhh.de/studip/plugins.php/coreforum/index/index/829d16c0c1cc3efba9a047528f253edb?cid=7c2aaa205573faadac1b0f7870223247#829d16c0c1cc3efba9a047528f253edb)
 
 <br>
 
-[diskrete algebraische strukturen](https://tuhh.zoom.us/j/87833655708?pwd=dUJ5aGxnRTRJdHZqcEY2VytSekcxdz09)
+[formal-languages-videos](https://e-learning.tuhh.de/studip/dispatch.php/course/scm?cid=a6778cce1d1177ed35db08abca403dab)
 
+
+[BWL-Übung](https://tuhh.zoom.us/j/85088337673?pwd=ZThhMVdGdjVBN0ExSFBaYi9Wd2t0dz09)
