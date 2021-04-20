@@ -5,7 +5,7 @@
 
 [e-learning](https://e-learning.tuhh.de/studip/dispatch.php/start)
 
-[mathematical-analysis-lecture](https://tuhh.zoom.us/j/87291343957?pwd=WjIxVmpTSWMxVXRxSVRKMFlxaXJLQT09)
+[mathematical-analysis-lecture](https://tuhh.zoom.us/j/88000086047?pwd=S2xvS0psdTVEbFhkVG9mdmFTZlNUZz09)
 
 [mathematical-analysis-tutorial](https://tuhh.zoom.us/j/84827648670?pwd=TDUzWE45bVlVUTNCZnJPMnZFZ0Y1UT09)
 
