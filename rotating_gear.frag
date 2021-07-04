@@ -28,8 +28,11 @@ void main() {
 
 	float f = smoothstep(-0.5, 0.5, cos(u_time + angle * 12.0)) * 0.1 + 0.5;
 
-	vec3 color = vec3(0.2, 0.5, 0.7) * vec3(1.0 - smoothstep(f, f+0.002, radius));
+	vec3 color = vec3(1.0);
 
-	color = mix(color, vec3(0.0, 0.0, 0.0), circle(st, vec2(0.5, 0.5), 0.1));
+	color = mix(color, vec3(0.2, 0.5, 0.7), vec3(1.0 - smoothstep(f, f+0.002, radius)));
+
+	color = mix(color, vec3(1.0, 1.0, 1.0), circle(st, vec2(0.5, 0.5), 0.1));
 
 	gl_FragColor = vec4(color, 1.0);
+}
