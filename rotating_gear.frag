@@ -30,7 +30,8 @@ void main() {
 
 	vec3 color = vec3(1.0);
 
-	color = mix(color, vec3(0.2, 0.5, 0.7), vec3(1.0 - smoothstep(f, f+0.002, radius)));
+	vec3 gear_color = vec3(191.0, 252.0, 121.0) / 255.0;
+	color = mix(color, gear_color, vec3(1.0 - smoothstep(f, f+0.002, radius)));
 
 	color = mix(color, vec3(1.0, 1.0, 1.0), circle(st, vec2(0.5, 0.5), 0.1));
 

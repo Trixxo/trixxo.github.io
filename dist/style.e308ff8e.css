@@ -1,0 +1,10 @@
+.canvasContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 100vh;
+}
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
