@@ -20,5 +20,13 @@
   "homepage": "https://github.com/Trixxo/trixxo.github.io#readme",
   "devDependencies": {
     "parcel-plugin-static-files-copy": "^2.6.0"
-  }
+  },
+	"staticFiles": {
+			"staticPath": [
+				{
+					"staticPath": "static",
+					"staticOutDir": "static/"
+				}
+			]
+		}
 }
