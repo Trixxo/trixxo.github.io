@@ -1,6 +1,6 @@
 const links = [
 	'e-learning.tuhh.de',
-	'e-learning.tuhh.de',
+	'https://www3.tuhh.de/e-4/teaching/rnuis-exercises-labs/',
 	'e-learning.tuhh.de',
 	'e-learning.tuhh.de',
 	'e-learning.tuhh.de',
@@ -11,7 +11,7 @@ const links = [
 
 const titles = [
 	'e-learning.tuhh.de',
-	'e-learning.tuhh.de',
+	'internet security',
 	'e-learning.tuhh.de',
 	'e-learning.tuhh.de',
 	'e-learning.tuhh.de',
