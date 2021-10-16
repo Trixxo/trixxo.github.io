@@ -1,8 +1,8 @@
 const links = [
 	'e-learning.tuhh.de',
 	'https://www3.tuhh.de/e-4/teaching/rnuis-exercises-labs/',
-	'e-learning.tuhh.de',
-	'e-learning.tuhh.de',
+	'https://media.tuhh.de/es/TI/',
+	'https://www.math.uni-hamburg.de/teaching/export/tuhh/cm/a3/2122/lm.html.en',
 	'e-learning.tuhh.de',
 	'e-learning.tuhh.de',
 	'e-learning.tuhh.de',
@@ -12,8 +12,8 @@ const links = [
 const titles = [
 	'e-learning.tuhh.de',
 	'internet security',
-	'e-learning.tuhh.de',
-	'e-learning.tuhh.de',
+	'ti videos',
+	'Analysis',
 	'e-learning.tuhh.de',
 	'e-learning.tuhh.de',
 	'e-learning.tuhh.de',
