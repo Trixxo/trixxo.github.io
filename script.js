@@ -48,5 +48,10 @@ for (let i = 0; i < links.length; i++) {
 	const posY = (window.innerHeight / 2) - (getHeight(button)) + (Math.sin(Math.PI * 2 / links.length * i) * 300)
 	button.style = `position: absolute; right: ${posX}px; bottom: ${posY};`
 
+	button.onclick = () => {
+		console.log('worked')
+		window.location = links[i]
+	}
+
 	document.body.appendChild(button);
 }
