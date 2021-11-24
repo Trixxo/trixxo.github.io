@@ -6,10 +6,7 @@
 	height: 100vh;
 }
 
-button {
-	
-}
-
-/*body {*/
+body {
+	background: black;
 	/*background: radial-gradient( ellipse 200vw 80rem at 50% -10rem, #1fefca 0%, #314a66 80%, #263341 100% ) no-repeat;*/
-/*}*/
+}
