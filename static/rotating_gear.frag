@@ -31,9 +31,12 @@ void main() {
 	vec3 color = vec3(0);
 
 	vec3 gear_color = vec3(184.0, 149.0, 73.0) / 255.0;
-	color = mix(color, gear_color, vec3(1.0 - smoothstep(f, f+0.002, radius)));
 
-	color = mix(color, vec3(0), circle(st, vec2(0.5, 0.5), 0.1));
+	float gear_amount = 1.0 - smoothstep(f, f+0.002, radius);
+	color = mix(color, gear_color, vec3(gear_amount));
 
-	gl_FragColor = vec4(color, 1.0);
+	float circle_amount = circle(st, vec2(0.5, 0.5), 0.1);
+	color = mix(color, vec3(0), circle_amount);
+
+	gl_FragColor = vec4(color, 0.);
 }

@@ -4,6 +4,7 @@
 	justify-content: center;
 	flex-direction: column;
 	height: 100vh;
+	background: #181A1B
 }
 
 button {
@@ -11,7 +12,6 @@ button {
 	color: #000000;
 }
 
-body {
-	background: black;
+/*body {*/
 	/*background: radial-gradient( ellipse 200vw 80rem at 50% -10rem, #1fefca 0%, #314a66 80%, #263341 100% ) no-repeat;*/
-}
+/*}*/
