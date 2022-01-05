@@ -127,7 +127,7 @@ function updateTime() {
 
 function getHighestButtonIndex() {
   let positionOfHighest = buttons[0].getBoundingClientRect().top;
-  const highestIndex = 0;
+  let highestIndex = 0;
   for (let i = 1; i < buttons.length; i++) {
     const rect = buttons[i].getBoundingClientRect();
     if (rect.top < positionOfHighest) {
