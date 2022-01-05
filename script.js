@@ -99,7 +99,7 @@ function onKeyDown(e) {
 
   //h
   if (key == 72) {
-    rotateButtons(-1);
+    rotateButtons(1);
 
     animTime = 0;
     dir = 1;
@@ -108,7 +108,7 @@ function onKeyDown(e) {
 
   //l
   if (key == 76) {
-    rotateButtons(1);
+    rotateButtons(-1);
 
     dir = -1;
     animTime = 0;
