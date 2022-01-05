@@ -1,18 +1,17 @@
-.canvasContainer {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	height: 100vh;
-	background: #181A1B
-}
-
 button {
-	text-color: #ffffff;
-	color: #000000;
+  /*margin: 10px 10px 10px 10px;*/
+  padding: 2px 2px 2px 2px;
+  background-color: #262837;
+  border: 1px solid white;
+  color: #d0af64;
+  border-color: #d0af64;
 }
 
+html,
 body {
-	background: #181A1B
-	/*background: radial-gradient( ellipse 200vw 80rem at 50% -10rem, #1fefca 0%, #314a66 80%, #263341 100% ) no-repeat;*/
+  background: #181a1b;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  /*background: radial-gradient( ellipse 200vw 80rem at 50% -10rem, #1fefca 0%, #314a66 80%, #263341 100% ) no-repeat;*/
 }

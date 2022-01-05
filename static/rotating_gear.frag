@@ -6,6 +6,7 @@ precision mediump float;
 
 uniform float u_time;
 uniform vec2 u_resolution;
+uniform vec3 u_angle;
 
 float circle(vec2 st, vec2 position, float radius) {
 	float pct = step(radius, distance(st, position));
