@@ -31,7 +31,8 @@ void main() {
 
 	vec3 color = vec3(0);
 
-	vec3 gear_color = vec3(184.0, 149.0, 73.0) / 255.0;
+	// vec3 gear_color = vec3(184.0, 149.0, 73.0) / 255.0;
+	vec3 gear_color = vec3(227.0, 254.0, 255.0) / 255.0;
 
 	float gear_amount = 1.0 - smoothstep(f, f+0.002, radius);
 	color = mix(color, gear_color, vec3(gear_amount));
