@@ -56,7 +56,8 @@ void main() {
 
 	vec3 color = vec3(0);
 
-	vec3 gear_color = vec3(184.0, 149.0, 73.0) / 255.0;
+
+	vec3 gear_color = vec3(227.0, 254.0, 255.0) / 255.0;
 
 	float gear_amount = 1.0 - smoothstep(f, f+0.002, radius);
 	color = mix(color, gear_color, vec3(gear_amount));
@@ -66,6 +67,8 @@ void main() {
 
 	gl_FragColor = vec4(color, 0.);
 }`;
+
+//vec3 gear_color = vec3(184.0, 149.0, 73.0) / 255.0;
 
 const canvas = document.querySelector("canvas.glslCanvas");
 canvas.style = `position: absolute; left: ${
@@ -97,23 +100,23 @@ const buttons = [];
 //     window.location = links[i];
 //   }
 
-  //h
-  // if (key == 72) {
-  //   rotateButtons(1);
+//h
+// if (key == 72) {
+//   rotateButtons(1);
 
-  //   animTime = 0;
-  //   dir = 1;
-  //   updateTime(-1);
-  // }
+//   animTime = 0;
+//   dir = 1;
+//   updateTime(-1);
+// }
 
-  //l
-  // if (key == 76) {
-  //   rotateButtons(-1);
+//l
+// if (key == 76) {
+//   rotateButtons(-1);
 
-  //   dir = -1;
-  //   animTime = 0;
-  //   updateTime(1);
-  // }
+//   dir = -1;
+//   animTime = 0;
+//   updateTime(1);
+// }
 // }
 
 function updateTime() {
@@ -181,23 +184,23 @@ function rotateButtons(dir) {
 //const canvasContainer = document.querySelector(".canvasContainer");
 
 //for (let i = 0; i < links.length; i++) {
-  //const button = document.createElement("BUTTON");
-  //buttons.push(button);
+//const button = document.createElement("BUTTON");
+//buttons.push(button);
 
-  //button.innerText = titles[i];
-  //const posX =
-    //window.innerWidth / 2 -
-    //getWidth(button) / 2 +
-    //Math.cos(((Math.PI * 2) / links.length) * i) * 300;
-  //const posY =
-    //window.innerHeight / 2 -
-    //getHeight(button) / 2 +
-    //Math.sin(((Math.PI * 2) / links.length) * i) * 300;
-  //button.style = `position: absolute; left: ${posX}px; bottom: ${posY};`;
+//button.innerText = titles[i];
+//const posX =
+//window.innerWidth / 2 -
+//getWidth(button) / 2 +
+//Math.cos(((Math.PI * 2) / links.length) * i) * 300;
+//const posY =
+//window.innerHeight / 2 -
+//getHeight(button) / 2 +
+//Math.sin(((Math.PI * 2) / links.length) * i) * 300;
+//button.style = `position: absolute; left: ${posX}px; bottom: ${posY};`;
 
-  //button.onclick = () => {
-    //window.location = links[i];
-  //};
+//button.onclick = () => {
+//window.location = links[i];
+//};
 
-  // document.body.appendChild(button);
+// document.body.appendChild(button);
 // }
