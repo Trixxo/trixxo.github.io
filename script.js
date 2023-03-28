@@ -89,32 +89,32 @@ let dir = 0;
 
 const buttons = [];
 
-function onKeyDown(e) {
-  const key = e.which;
+// function onKeyDown(e) {
+//   const key = e.which;
 
-  if (key == 13) {
-    const i = getHighestButtonIndex();
-    window.location = links[i];
-  }
+//   if (key == 13) {
+//     const i = getHighestButtonIndex();
+//     window.location = links[i];
+//   }
 
   //h
-  if (key == 72) {
-    rotateButtons(1);
+  // if (key == 72) {
+  //   rotateButtons(1);
 
-    animTime = 0;
-    dir = 1;
-    updateTime(-1);
-  }
+  //   animTime = 0;
+  //   dir = 1;
+  //   updateTime(-1);
+  // }
 
   //l
-  if (key == 76) {
-    rotateButtons(-1);
+  // if (key == 76) {
+  //   rotateButtons(-1);
 
-    dir = -1;
-    animTime = 0;
-    updateTime(1);
-  }
-}
+  //   dir = -1;
+  //   animTime = 0;
+  //   updateTime(1);
+  // }
+// }
 
 function updateTime() {
   animTime += dir * 0.2;
@@ -179,24 +179,25 @@ function rotateButtons(dir) {
 }
 
 //const canvasContainer = document.querySelector(".canvasContainer");
-for (let i = 0; i < links.length; i++) {
-  const button = document.createElement("BUTTON");
-  buttons.push(button);
 
-  button.innerText = titles[i];
-  const posX =
-    window.innerWidth / 2 -
-    getWidth(button) / 2 +
-    Math.cos(((Math.PI * 2) / links.length) * i) * 300;
-  const posY =
-    window.innerHeight / 2 -
-    getHeight(button) / 2 +
-    Math.sin(((Math.PI * 2) / links.length) * i) * 300;
-  button.style = `position: absolute; left: ${posX}px; bottom: ${posY};`;
+//for (let i = 0; i < links.length; i++) {
+  //const button = document.createElement("BUTTON");
+  //buttons.push(button);
 
-  button.onclick = () => {
-    window.location = links[i];
-  };
+  //button.innerText = titles[i];
+  //const posX =
+    //window.innerWidth / 2 -
+    //getWidth(button) / 2 +
+    //Math.cos(((Math.PI * 2) / links.length) * i) * 300;
+  //const posY =
+    //window.innerHeight / 2 -
+    //getHeight(button) / 2 +
+    //Math.sin(((Math.PI * 2) / links.length) * i) * 300;
+  //button.style = `position: absolute; left: ${posX}px; bottom: ${posY};`;
+
+  //button.onclick = () => {
+    //window.location = links[i];
+  //};
 
   // document.body.appendChild(button);
 }
