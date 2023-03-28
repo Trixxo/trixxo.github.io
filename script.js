@@ -1,4 +1,4 @@
-document.addEventListener("keydown", onKeyDown, false);
+// document.addEventListener("keydown", onKeyDown, false);
 
 const links = [
   "e-learning.tuhh.de",
